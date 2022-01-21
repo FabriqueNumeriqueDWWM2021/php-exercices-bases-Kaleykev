@@ -9,10 +9,28 @@
 <body>
     <?php 
         $hello = "Hello"; 
-        //Afficher la variable $hello//
+        // Afficher la variable $hello
+
+        echo $hello;
+        var_dump($hello);
+                               // $hello est de type string.
 
 
-        $world = "World";
+        // # Concaténer des variables avec du texte
+        // $world = "World";
+        // echo $hello . " " . $world;
+        // $varTrois = $hello . " " . $world;
+        // echo "<br>";
+        // echo $varTrois;
+
+        # Variables numériques
+        $ht = "15.2";
+        echo "prix : ".$ht. "<br>";
+        $tva = $ht * 20 / 100;
+        echo "tva : ".$tva. "<br>";
+        $ttc = $ht + $tva;
+        echo "prix ttc : ". + $ttc;
+
     ?>
 </body>
 </html>
